@@ -1,0 +1,10 @@
+input {
+    width: 1.5em;
+}
+
+#calculator {
+    width: 20em;
+} #calculator > div {
+    display: flex;
+    justify-content: space-between;
+}
