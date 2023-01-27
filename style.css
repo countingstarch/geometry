@@ -1,4 +1,6 @@
-input.item, input.door, #unit {
+#main { width: fit-content; }
+
+input.item, input.door, #lunit {
     width: 3em;
 } input:invalid {
     border: 2px red solid;
@@ -24,4 +26,13 @@ input.item, input.door, #unit {
 legend {
     font-size: 0.8em;
     font-family: sans-serif;
+}
+
+#main { text-align: center; }
+#calculated > div {
+    text-align: left;
+} #sim {
+    margin: auto;
+    width: 25em;
+    aspect-ratio: 1/1;
 }

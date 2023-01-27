@@ -14,36 +14,47 @@
 </head>
 
 <body>
-    <section>
+    <section id="main">
         <fieldset id="inputs">
             <legend>Object and door dimensions</legend>
             <div id="diminput">
                 <div>Object dimensions:
                     <span class="dim">
-                        <input type="number" class="item"> x <input type="number" class="item"> x <input type="number" class="item">
+                        <input type="number" min="0" class="item"> x <input type="number" min="0" class="item"> x <input type="number" min="0" class="item">
                     </span>
                 </div>
                 <div>Door dimensions:
                     <span class="dim">
-                        <input type="number" class="door"> x <input type="number" class="door">
+                        <input type="number" min="0" class="door"> x <input type="number" min="0" class="door">
                     </span>
                 </div><br>
                 <div>
-                    Unit:
-                    <input type="text" class="" id="unit">
+                    Length unit:
+                    <input type="text" id="lunit" value="cm">
+                </div>
+                <div>
+                    Angle unit:
+                    <select id="runit">
+                        <option value="rad">Radians</option>
+                        <option value="deg">Degrees</option>
+                    </select>
                 </div>
             </div>
             <div id="unitcrap">
-                <span class="unit"></span>
+                <span class="lunit">&nbsp;cm</span>
                 <br>
-                <span class="unit"></span>
+                <span class="lunit">&nbsp;cm</span>
             </div>
         </fieldset>
-    
+        <br>
         <div id="calculated">
             <div>
-                Door diagonal: <span id="doordia">--</span><span class="unit"></span>
+                Door diagonal: <span class="doordia">--</span><span class="lunit"></span>
             </div>
+            <div>
+                Door diagonal angle: <span class="doorangle">--</span><span class="runit"> rad</span>
+            </div>
+            <br>
             <canvas id="sim"></canvas>
         </div>
     </section>
