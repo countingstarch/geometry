@@ -11,16 +11,25 @@
 
 <body>
     <div id="calculator">
-        <div>Object dimensions: <span>
-                <input type="text" name="" id=""> x <input type="text" name="" id=""> x <input type="text" name="" id="">
-            </span>
-        </div><br>
-        <div>Door dimensions:
-            <span>
-                <input type="text" name="" id=""> x <input type="text" name="" id="">
+        <div>Object dimensions:
+            <span class="dim">
+                <input type="text" class="item"> x <input type="text" class="item"> x <input type="text" class="item">
+                <span class="unit"></span>
             </span>
         </div>
+        <div>Door dimensions:
+            <span class="dim">
+                <input type="text" class="door"> x <input type="text" class="door">
+                <span class="unit">&nbsp;</span>
+            </span>
+        </div><br>
+        <div>
+            Unit:
+            <input type="text" class="" id="unit">
+        </div>
     </div>
+
+    <script src="app.js"></script>
 </body>
 
 </html>
