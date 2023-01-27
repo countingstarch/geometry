@@ -1,11 +1,27 @@
 input.item, input.door, #unit {
-    width: 1.5em;
+    width: 3em;
+} input:invalid {
+    border: 2px red solid;
+    border-radius: 0.2em;
+    box-shadow: 2px;
 }
 
-#calculator {
-    width: 20em;
-    height: 20em;
-} #calculator > div {
+#inputs {
+    min-width: 25em;
+    max-width: fit-content;
     display: flex;
+}
+
+#diminput {
+    width: 25em;
+    height: fit-content;
+} #diminput > div {
+    display: flex;
+    flex-wrap: nowrap;
     justify-content: space-between;
-} .unit { position: absolute; }
+} #unitcrap { width: fit-content; }
+
+legend {
+    font-size: 0.8em;
+    font-family: sans-serif;
+}
