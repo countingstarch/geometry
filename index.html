@@ -15,8 +15,10 @@
 
 <body>
     <section id="main">
+        <!-- Inputs -->
         <fieldset id="inputs">
             <legend>Object and door dimensions</legend>
+            <!-- dim for dimensions -->
             <div id="diminput">
                 <div>Object dimensions:
                     <span class="dim">
@@ -47,14 +49,35 @@
             </div>
         </fieldset>
         <br>
+        <!-- Processed data -->
         <div id="calculated">
             <div>
-                Door diagonal: <span class="doordia">--</span><span class="lunit"></span>
+                Door diagonal: <span class="doordia">--</span><span class="lunit"> cm</span>
             </div>
             <div>
                 Door diagonal angle: <span class="doorangle">--</span><span class="runit"> rad</span>
             </div>
             <br>
+            <div>
+                Object faces:
+                <span class="itemface 1">--</span><span class="lunit"> cm</span>²,
+                <span class="itemface 2">--</span><span class="lunit"> cm</span>²,
+                <span class="itemface 3">--</span><span class="lunit"> cm</span>²
+            </div>
+            <div>
+                Object face diagonals:
+                <span class="itemfacedia 1">--</span><span class="lunit"> cm</span>, 
+                <span class="itemfacedia 2">--</span><span class="lunit"> cm</span>, 
+                <span class="itemfacedia 3">--</span><span class="lunit"> cm</span>
+            </div>
+            <div>
+                Object volume: <span class="itemvol">--</span><span class="lunit"> cm</span>³
+            </div>
+            <div>
+                Object volume diagonal: <span class="itemvoldia">--</span><span class="lunit"> cm</span>
+            </div>
+            <br>
+            <!-- sim for simulation -->
             <canvas id="sim"></canvas>
         </div>
     </section>
