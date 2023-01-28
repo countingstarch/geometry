@@ -11,5 +11,6 @@ Created 2023-01-26 after a trip to the furniture store.
 
 ## Features to come (hopefully)
 * Calculate stuff with the object
-* WebGL canvas that shows what it looks like
-* Javascript and cache not messing things up on soft-refresh :(
+* Interactive WebGL canvas to preview
+* A decent interface
+* Themes?
