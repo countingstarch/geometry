@@ -1,5 +1,5 @@
 # object-and-door
-...in which my program calculates whether something can fit into a door or not, with an interface (HTML).
+...in which my program calculates whether something can fit into a door or not, with an interface (HTML). WIP.
 
 Created 2023-01-26 after a trip to the furniture store. Won't work with non-rectangular cuboids. (Maybe in another fork...)
 
