@@ -3,4 +3,6 @@ body {
     background-color: #222;
 } #sim {
     background-color: #999;
+} fieldset {
+    border: white solid 2px;
 }
