@@ -15,7 +15,7 @@ Created 2023-01-26 after a trip to the furniture store. Won't work with non-rect
 
 ## To-Do List
 * Make it actually calculate whether the object will fit in the door
-* Earn the Fields Medal, Abel Prize, and other rewards for work on the moving sofa problem
+* Earn the Fields Medal, Abel Prize, and other renowned math rewards for work on the moving sofa problem
 * Interactive WebGL canvas to preview
 * A decent interface
 * Themes?
