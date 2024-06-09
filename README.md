@@ -15,6 +15,7 @@ Created 2023-01-26 after a trip to the furniture store. Won't work with non-rect
 
 ## Features to come (hopefully)
 * Make it actually calculate whether the object will fit in the door
+* Photo of the Fields Medal, Abel Prize, and other rewards I'll get for solving the moving sofa problem
 * Interactive WebGL canvas to preview
 * A decent interface
 * Themes?
